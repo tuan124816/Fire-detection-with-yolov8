@@ -127,7 +127,7 @@ class FireDetectionSystem:
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    model_path = "/Users/huytuannguyen/Desktop/FPT/FAIC/FPTAI/FireDetectionYOLOv8/runs/detect/train/weights/best.pt"
+    model_path = "best.pt"
     camera_ip = 0
     fire_detection_system = FireDetectionSystem(model_path, camera_ip)
     fire_detection_system.run()
